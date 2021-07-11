@@ -1,0 +1,1180 @@
+ <div class = "top-banner ">
+<a href = "android/stv88-release.apk">
+<img src="https://siamtv88.co/images/android_badge.png" alt="Download APK" class="btn-login img-fluid mt-4 mb-3" style = "width:150px;border-radius:5px">
+</a>
+<a href = "javascript:closeBanner()">
+<span class = "closeBanner">x</span>
+</a>
+</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=0.7">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<title>SIAMTV88</title>
+
+<link rel="stylesheet" href="fontawesome/css/all.css">
+
+<link rel="stylesheet" href="css/adminlte.css">
+<link rel="stylesheet" href="css/custom.css">
+<link rel="stylesheet" href="css/flickity.css">
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/flickity.pkgd.min.js"></script>
+<style>
+		.col-form-label {
+				font-size: 12px !important;
+
+		}
+		[class*='sidebar-dark-'] {
+			/* #0e0e0e */
+			background-color: #222 !important;
+		}
+		body {
+			padding-right: 0 !important;
+
+		}
+		html {
+			overflow-y: scroll;
+		}
+	</style>
+</head>
+<body class="hold-transition sidebar-mini">
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '3938186646196007',
+      cookie     : true,
+      xfbml      : true,
+      version    : 'v8.0'
+	});
+	//triggerLoginCheck();
+      
+    FB.AppEvents.logPageView();   
+      
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script> <div class="wrapper">
+<div class="main-header" style=" border: none;">
+<div style="margin-left:20px;padding: 5px;  position: absolute; height: 75px; width:50px; z-index: 1; display:flex; align-items: center;">
+<a data-widget="pushmenu" href="#"><i class="fas fa-bars" style="font-size:30px;color:#E74C3C; "></i></a>
+</div>
+<div class="carousel" style=" padding-left: 55px;">
+<div class="main-carousel" style=" padding-left: 40px; padding-right: 10px;">
+<a href="https://siamtv88.co/index.php?a=movie&cat=9"><div class="carousel-cell text-white">หนังมาใหม่</div></a><a href="https://siamtv88.co/index.php?a=movie&cat=31"><div class="carousel-cell text-white">หนังชุด</div></a><a href="https://siamtv88.co/index.php?a=movie&cat=14"><div class="carousel-cell text-white">การ์ตูน</div></a><a href="https://siamtv88.co/index.php?a=movie&cat=25"><div class="carousel-cell text-white">หนังไทย</div></a> </div>
+</div>
+<script>
+			$('.main-carousel').flickity({
+				// options
+				cellAlign: 'left',
+				// contain: true,
+				// wrapAround:true,
+				pageDots: false,
+				contain: true
+			});
+		</script>
+</div><aside class="main-sidebar sidebar-dark-primary elevation-4">
+<a href="https://siamtv88.co/index.php" class="brand-link">
+<img src="https://siamtv88.co/images/AdminLTELogo.png" alt="SiamTV88 Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
+<span class="brand-text font-weight-light">SIAMTV88</span>
+</a>
+<div class="sidebar">
+<div class="user-panel mt-3 pb-3 mb-3 d-flex">
+<div class="image"></div>
+<div class="info text-white">
+0640328068 </div>
+</div>
+<nav class="mt-2">
+<ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
+<li class="nav-item">
+<a href="https://siamtv88.co/index.php?a=movie" class="nav-link active">
+<p>หนัง</p>
+</a>
+</li>
+<li class="nav-item">
+<a href="https://siamtv88.co/index.php?a=series" class="nav-link ">
+<p>ซีรี่ย์</p>
+</a>
+</li>
+<li class="nav-item">
+<a href="https://siamtv88.co/index.php?a=live" class="nav-link ">
+<p>Live</p>
+</a>
+</li>
+<li class="nav-item">
+<a href="https://siamtv88.co/index.php?a=xxx" class="nav-link ">
+<p>18+</p>
+</a>
+</li>
+</ul>
+</nav>
+<nav class="mt-5 p-2">
+<div class="row mt-3">
+<a href="https://siamtv88.co/index.php?a=favorites&title_type=movie" class="btn  btn-block btn-login text-white">รายการหนังโปรด</a>
+<span style="position: absolute; right: 15px;margin-top: 5px;"><img src="https://siamtv88.co/images/icon-star.png" width="20px" height="20px"></span>
+</div>
+<div class="row mt-3">
+<a href="https://siamtv88.co/index.php?a=favorites&title_type=series" class="btn  btn-block btn-login text-white">รายการซีรีย์โปรด</a>
+<span style="position: absolute; right: 15px;margin-top: 5px;"><img src="https://siamtv88.co/images/icon-star.png" width="20px" height="20px"></span>
+</div>
+<div class="row  mt-3">
+<button type="button" id="btn_search" onClick="openModal('search')" class="btn btn-block btn-login text-white">ค้นหา</button>
+</div>
+<div class="row mt-3">
+<a href="https://siamtv88.co/index.php?a=logout" id="btn_logout" class="btn  btn-block btn-login text-white">ออกจากระบบ</a>
+</div>
+<div class="row mt-3">
+<button type="button" id="btn_request" onClick="openModal('request')" class="btn  btn-block btn-register text-white">ขอหนัง</button>
+</div>
+<div class="row mt-3">
+<button onclick="history.go(-1); return false;" class="btn btn-login text-center text-white" style=" width: 100%"> &lt; ย้อนกลับ </button>
+</div>
+</nav>
+</div>
+<center>
+<a href = "android/stv88-release.apk">
+<img src="https://siamtv88.co/images/android_badge.png" alt="Download APK" class="btn-login img-fluid mt-4 mb-3" style = "width:150px;border-radius:5px">
+</a>
+</center>
+</aside>
+<div class="content-wrapper" >
+<button  id="back-to-top" ><i class="fa fa-arrow-up text-white"></i></button>
+<div class="col-12 content-page">
+<div class="content-movie row" >
+
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15893">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15893/cover_1625921175.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15893">
+สปาร์คใจนายจอมหยิ่ง เดอะ มูฟวี่ (2020) Is Love You My Arrogance </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15893" onClick="toggleFavorite('movie', 15893)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15892">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15892/cover_1625921101.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15892">
+Force of Nature (2020) ฝ่าพายุคลั่ง (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15892" onClick="toggleFavorite('movie', 15892)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15891">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15891/cover_1625921058.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15891">
+Major Grom: Plague Doctor (2021) (มาสเตอร์) Netflix </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15891" onClick="toggleFavorite('movie', 15891)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15890">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15890/cover_1625921026.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15890">
+Let It Snow (2021) นรกเยือกเเข็ง (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15890" onClick="toggleFavorite('movie', 15890)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15889">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15889/cover_1625920938.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15889">
+Black Beauty (2020) (มาสเตอร์) Disney+ </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15889" onClick="toggleFavorite('movie', 15889)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15888">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15888/cover_1625920895.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15888">
+Togo (2019) โทโก (มาสเตอร์) Disney+ </a>
+</div>
+<div class="movie-corner movie-SD">SD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15888" onClick="toggleFavorite('movie', 15888)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15887">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15887/cover_1625920863.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15887">
+Artemis Fowl (2020) ผจญภัยสายลับใต้พิภพ (มาสเตอร์) Disney+ </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15887" onClick="toggleFavorite('movie', 15887)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15886">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15886/cover_1625920832.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15886">
+Godmothered (2020) (มาสเตอร์) Disney+ </a>
+</div>
+<div class="movie-corner movie-SD">SD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15886" onClick="toggleFavorite('movie', 15886)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15885">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15885/cover_1625920644.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15885">
+The Doorman (2020) (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15885" onClick="toggleFavorite('movie', 15885)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15884">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15884/cover_1625920607.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15884">
+Cop and a Half: New Recruit (2017) (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15884" onClick="toggleFavorite('movie', 15884)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15883">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15883/cover_1625920572.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15883">
+Badland (2019) (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15883" onClick="toggleFavorite('movie', 15883)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15880">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15880/cover_1625920446.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15880">
+Flora & Ulysses (2021) (มาสเตอร์) Disney+ </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15880" onClick="toggleFavorite('movie', 15880)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15879">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15879/cover_1625920396.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15879">
+Magic Camp (2020) (มาสเตอร์) Disney+ </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15879" onClick="toggleFavorite('movie', 15879)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15878">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15878/cover_1625920346.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15878">
+Stargirl (2020) (มาสเตอร์) Disney+ </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15878" onClick="toggleFavorite('movie', 15878)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15877">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15877/cover_1625920315.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15877">
+Autumn Fairy Tale (2019) (ซับไทย) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15877" onClick="toggleFavorite('movie', 15877)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15876">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15876/cover_1625920291.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15876">
+Queen of My Heart (2020) ซับไทย </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15876" onClick="toggleFavorite('movie', 15876)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15874">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15874/cover_1625920203.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15874">
+The God Committee (2021) (ซับไทย) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15874" onClick="toggleFavorite('movie', 15874)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15873">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15873/cover_1625920157.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15873">
+Lansky (2021) (ซับไทย) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15873" onClick="toggleFavorite('movie', 15873)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15872">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15872/cover_1625920127.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15872">
+Prime Time (2021) (ซับไทย) Netflix </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15872" onClick="toggleFavorite('movie', 15872)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15871">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15871/cover_1625920093.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15871">
+Sunrise In Heaven (2019) (ซับไทย) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15871" onClick="toggleFavorite('movie', 15871)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15870">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15870/cover_1625920068.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15870">
+Jim Button and the Wild 13 (2020) (ซับไทย) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15870" onClick="toggleFavorite('movie', 15870)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15869">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15869/cover_1625920029.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15869">
+Haseen Dillruba (2021) (ซับไทย) Netflix </a>
+</div>
+<div class="movie-corner movie-SD">SD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15869" onClick="toggleFavorite('movie', 15869)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15851">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15851/cover_1625312990.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15851">
+The Tomorrow War (2021) ข้ามเวลา หยุดโลกวินาศ (ซับไทย) </a>
+</div>
+<div class="movie-corner movie-SD">SD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15851" onClick="toggleFavorite('movie', 15851)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15850">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15850/cover_1625312401.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15850">
+Dynasty Warriors (2021) (มาสเตอร์) Netflix </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15850" onClick="toggleFavorite('movie', 15850)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15849">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15849/cover_1625312368.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15849">
+Lady and the Tramp (2019) (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15849" onClick="toggleFavorite('movie', 15849)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15848">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15848/cover_1625312332.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15848">
+Cosmic Sin (2021) (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15848" onClick="toggleFavorite('movie', 15848)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15847">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15847/cover_1625312278.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15847">
+The Captain (2019) (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15847" onClick="toggleFavorite('movie', 15847)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15846">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15846/cover_1625312243.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15846">
+The One and Only Ivan (2020) (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15846" onClick="toggleFavorite('movie', 15846)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15845">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15845/cover_1625312200.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15845">
+Fatale (2020) (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15845" onClick="toggleFavorite('movie', 15845)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15844">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15844/cover_1625312172.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15844">
+Fear Street Part One: 1994 (2021) (มาสเตอร์) Netflix </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15844" onClick="toggleFavorite('movie', 15844)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15843">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15843/cover_1625312131.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15843">
+The 8th Night (2021) (มาสเตอร์) Netflix </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15843" onClick="toggleFavorite('movie', 15843)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15842">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15842/cover_1625312099.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15842">
+Noelle (2019) (ซับไทย) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15842" onClick="toggleFavorite('movie', 15842)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15841">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15841/cover_1625312055.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15841">
+Gaia (2021) (ซับไทย) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15841" onClick="toggleFavorite('movie', 15841)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15840">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15840/cover_1625312029.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15840">
+Magic Camp (2020) (ซับไทย) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15840" onClick="toggleFavorite('movie', 15840)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15839">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15839/cover_1625312000.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15839">
+No Sudden Move (2021) (ซับไทย) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15839" onClick="toggleFavorite('movie', 15839)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15838">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15838/cover_1625311971.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15838">
+False Positive (2021) (ซับไทย) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15838" onClick="toggleFavorite('movie', 15838)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15837">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15837/cover_1625311948.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15837">
+Dreamy Eyes (2019) (ซับไทย) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15837" onClick="toggleFavorite('movie', 15837)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15836">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15836/cover_1625311913.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15836">
+Deadwood: The Movie (2019) (ซับไทย) </a>
+</div> 
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15836" onClick="toggleFavorite('movie', 15836)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15832">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15832/cover_1625193303.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15832">
+Honest Thief (2020) ทรชนปล้นชั่ว (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15832" onClick="toggleFavorite('movie', 15832)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15830">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15830/cover_1625193228.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15830">
+ห้าวเป้งจ๋า อย่าแกงน้อง (2021) God Bless The Trainees Too (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15830" onClick="toggleFavorite('movie', 15830)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15829">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15829/cover_1625193181.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15829">
+The Ice Road (2021) ซิ่งภัยนรกเยือกแข็ง (ซับไทย) </a>
+</div>
+<div class="movie-corner movie-SD">SD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15829" onClick="toggleFavorite('movie', 15829)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15828">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15828/cover_1625193139.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15828">
+A Quiet Place Part II (2021) ดินแดนไร้เสียง 2 (ซับไทย) V2 </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15828" onClick="toggleFavorite('movie', 15828)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15827">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15827/cover_1625193094.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15827">
+Seobok (2021) ซอบก มนุษย์อมตะ (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15827" onClick="toggleFavorite('movie', 15827)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15826">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15826/cover_1625192837.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15826">
+400 Bullets (2021) (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15826" onClick="toggleFavorite('movie', 15826)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15825">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15825/cover_1625192807.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15825">
+The Magic Kids: Three Unlikely Heroes (2020) (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-SD">SD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15825" onClick="toggleFavorite('movie', 15825)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15824">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15824/cover_1625192773.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15824">
+You Should Have Left (2020) (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15824" onClick="toggleFavorite('movie', 15824)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15823">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15823/cover_1625192739.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15823">
+Together Together (2021) (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15823" onClick="toggleFavorite('movie', 15823)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+<div class="movie col-4 col-md-3 col-xl-2">
+<div class="movie-box">
+<div class="movie-image">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15822">
+<img class="lozad" data-src="https://stv88-static.rentm3u8.com/images/movie/15822/cover_1625192705.png" src="https://siamtv88.co/images/placeholder.jpg">
+</a>
+</div>
+<div class="movie-title">
+<a href="https://siamtv88.co/index.php?a=title_details&title_type=movie&title_id=15822">
+Free Solo (2018) ปีนท้าตาย (มาสเตอร์) </a>
+</div>
+<div class="movie-corner movie-FHD">FHD</div>
+</div>
+<div class="movie-footer">
+หนังมาใหม่ <span class="movie-favorite" style="position: absolute; right: 10px">
+<img id = "fav_15822" onClick="toggleFavorite('movie', 15822)" src="https://siamtv88.co/images/icon-star-o.png" width="16px" height="16px">
+</span>
+</div>
+</div>
+</div>
+<div class="content-movie row" >
+<nav aria-label="">
+<ul class="pagination pagination-lg">
+<li class="page-item" disabled><a class="page-link page-active"><span>1</span></a></li><li class="page-item"><a href="https://siamtv88.co/index.php?a=movie&cat=9&page=2" class="page-link page-no-active" data-ci-pagination-page="2"><span>2</span></a></li><li class="page-item"><a href="https://siamtv88.co/index.php?a=movie&cat=9&page=3" class="page-link page-no-active" data-ci-pagination-page="3"><span>3</span></a></li><li class="page-item"><a href="https://siamtv88.co/index.php?a=movie&cat=9&page=2" class="page-link page-no-active" data-ci-pagination-page="2"><span>></span></a></li><li class="page-item"><a href="https://siamtv88.co/index.php?a=movie&cat=9&page=86" class="page-link page-no-active" data-ci-pagination-page="86"><span>>></span></a></li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<script>
+	function toggleFavorite(content_type, content_id) {
+
+		var url = "api/favorite/toggle.php?user_id=855&content_type=" + content_type + "&content_id=" + content_id; // the script where you handle the form input.
+		$.ajax({
+			type: "POST",
+			url: url,
+			async: false,
+			cache: false,
+			contentType: false,
+			processData: false,
+			success: function(data) {
+				//console.log(data);
+
+				if (data.result == "added"){
+
+					$('#fav_' + content_id).attr("src", "images/icon-star.png");
+
+				} else {
+
+					$('#fav_' + content_id).attr("src", "images/icon-star-o.png");
+
+				}
+
+
+			}
+		});
+	}
+
+	const observer = lozad(); // lazy loads elements with default selector as '.lozad'
+	observer.observe();
+
+</script>
+<script src="js/adminlte.min.js"></script>
+
+<div class="modal" id="modal_container"></div>
+</body>
+<script>
+		
+		function openModal(page, param=''){
+			$('#modal_container').load('modals/' + page + '.php?param=' + param);
+			$('#modal_container').modal('show');
+		}
+
+		let number = 2;
+		let show;
+		let timer;
+		if ($('#back-to-top').length) {
+			// 100
+			let scrollTrigger = 500, // px
+				backToTop = function() {
+					let scrollTop = $(window).scrollTop();
+					if (scrollTop > scrollTrigger) {
+						// $('#back-to-top').css("display", "block");
+						// $('#back-to-top').removeAttr('style');
+						$('#back-to-top').addClass('show');
+						$('#back-to-top').css("display", "block");
+
+
+					} else {
+						$('#back-to-top').css("display", "none");
+						$('#back-to-top').removeClass('show');
+					}
+					show = $('#back-to-top').hasClass('show');
+					if (show == true) {
+						clearInterval(timer);
+						timer = setInterval(function() {
+							number--;
+							// console.log(number);
+							if (number == 0) {
+								clearInterval(timer);
+								number = 2;
+								$('#back-to-top').removeClass('show');
+								$('#back-to-top').css("display", "none");
+							}
+						}, 1000);
+					} else {
+						clearInterval(timer);
+						number = 2;
+					}
+					// console.log(show);
+				};
+			backToTop();
+			$(window).on('scroll', function() {
+				backToTop();
+			});
+			$('#back-to-top').on('click', function(e) {
+				e.preventDefault();
+				$('html,body').animate({
+					scrollTop: 0
+				}, 500);
+			});
+		}
+
+	</script>
+</html>
+<script>
+    function closeBanner(){
+        $(".top-banner").addClass("hidden");
+
+        document.cookie = "topbanner2=hidden";
+    }
+
+</script>
