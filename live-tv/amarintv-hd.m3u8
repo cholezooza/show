@@ -1,0 +1,4 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:BANDWIDTH=3229245,RESOLUTION=1280x720,CODECS="avc1.4d4029,mp4a.40.2"
+http://freelive2.inwstream.com:1935/freelive-edge/amarinhd/playlist.m3u8
